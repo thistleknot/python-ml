@@ -7,6 +7,9 @@ import gym
 import numpy as np
 import neat
 import random
+from IPython.display import clear_output
+
+env = gym.make("Taxi-v3").env
 
 #import cart_pole
 #import visualize
@@ -29,11 +32,29 @@ gamma = 1 - alpha
 #gamma = 0.6
 epsilon = 0.1
 
+# Use the NN network phenotype and the discrete actuator force function.
+#%%time
+"""Training the agent"""
+
 # For plotting metrics
 all_epochs = []
 all_penalties = []
+#env.s = 328
+env.reset()
+q_table = np.zeros([env.observation_space.n, env.action_space.n])
 
-# Use the NN network phenotype and the discrete actuator force function.
+#import neat_training
+#os.system('neat_training.py')
+#import subprocess
+
+#subprocess.call('neat_training.py', shell=True)
+import random
+
+#0 to 6
+lo = 0
+hi = 6
+size = 1
+
 def eval_genome(genome, config):
     net = neat.nn.FeedForwardNetwork.create(genome, config)
 
@@ -41,8 +62,7 @@ def eval_genome(genome, config):
 
     for runs in range(runs_per_net):
         env = gym.make("Taxi-v3").env
-        
-        q_table = np.zeros([env.observation_space.n, env.action_space.n])
+                
         #sim = cart_pole.CartPole()
         state = env.reset()
         #observation = env.reset()
@@ -73,13 +93,18 @@ def eval_genome(genome, config):
         done = False
 
         #frames = []        
-        
+        env.render()
         while not done:
-            if random.uniform(0, 1) < epsilon:
-                action = env.action_space.sample() # Explore action space
-            else:
-                #action = np.argmax(q_table[state]) # Exploit learned values
-                action = np.argmax(net.activate(q_table[state]))
+            #if random.uniform(0, 1) < epsilon:
+                #action = env.action_space.sample() # Explore action space
+            #else:
+            action = np.argmax(q_table[state]) # Exploit learned values
+            #set = net.activate(q_table[state])
+            #winners = np.flatnonzero(set == np.max(set))
+            #action = np.random.choice(winners.tolist())
+            #action = np.argmax(set)
+            #action = [lo + int(random.random()(net.activate(q_table[state])) * (hi - lo)) for _ in range(size)]
+            #print(action)
             
             next_state, reward, done, info = env.step(action) 
             
@@ -105,10 +130,13 @@ def eval_genome(genome, config):
             '''
 
             rewards += reward
-            epochs += 1 
+            state = next_state
+            epochs += 1             
         print(rewards)
+        env.render()
             
-        fitness = penalties/epochs
+        fitness = rewards / epochs
+		#penalties/epochs
         print(fitness)
     
         #total_rewards +- rewards
@@ -117,7 +145,7 @@ def eval_genome(genome, config):
         
         #print("Action Space {}".format(env.action_space))
         #print("Observation Space {}".format(env.observation_space))   
-        #print(f"Average rewards per episode: {total_rewards / runs_per_net}")
+        print(f"Average rewards per episode: {total_rewards / epochs}")
         #print(f"Average timesteps per episode: {total_epochs / runs_per_net}")
         #print(f"Average penalties per episode: {total_penalties / runs_per_net}")        
 
@@ -154,7 +182,7 @@ def run():
         pickle.dump(winner, f)
 
     print(winner)
-
+'''
     visualize.plot_stats(stats, ylog=True, view=True, filename="feedforward-fitness.svg")
     visualize.plot_species(stats, view=True, filename="feedforward-speciation.svg")
 
@@ -167,7 +195,7 @@ def run():
                        filename="winner-feedforward-enabled.gv", show_disabled=False)
     visualize.draw_net(config, winner, view=True, node_names=node_names,
                        filename="winner-feedforward-enabled-pruned.gv", show_disabled=False, prune_unused=True)
-
+'''
 
 if __name__ == '__main__':
     run()
