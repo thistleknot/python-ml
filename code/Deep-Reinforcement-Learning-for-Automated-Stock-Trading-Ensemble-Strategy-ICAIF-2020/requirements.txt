@@ -1,11 +1,15 @@
 # Model Building Requirements
-numpy==1.16.4
-pandas==1.0.3
+#numpy==1.16.4
+#pandas==1.0.3
 stockstats
-scikit-learn==0.21.0
-gym==0.15.3
+#scikit-learn==0.21.0
+#gym==0.15.3
+#yum install mpich
+#install cmake openmpi-devel
+#env MPICC=/usr/lib64/openmpi/bin/mpicc pip3 install mpi4py
+#pip install pep517
 stable-baselines[mpi]
-tensorflow==1.15.4
+#tensorflow==1.15.4
 
 joblib==0.15.1
 
@@ -19,5 +23,7 @@ pytest>=5.3.2,<6.0.0
 setuptools>=41.4.0,<42.0.0
 wheel>=0.33.6,<0.34.0
 
-
-
+tensorflow
+git+https://github.com/quantopian/pyfolio
+torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+cupy_cuda111
