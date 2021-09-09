@@ -25,7 +25,7 @@ def run_model() -> None:
         data = pd.read_csv(preprocessed_path, index_col=0)
     else:
         data = preprocess_data()
-        data = add_turbulence(data)
+        data = add_turbulence(data)        
         data.to_csv(preprocessed_path)
 
     print(data.head())

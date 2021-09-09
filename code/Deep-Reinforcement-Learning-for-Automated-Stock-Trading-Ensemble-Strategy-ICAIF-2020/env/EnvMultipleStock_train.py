@@ -42,9 +42,14 @@ class StockEnvTrain(gym.Env):
                       self.data.adjcp.values.tolist() + \
                       [0]*STOCK_DIM + \
                       self.data.macd.values.tolist() + \
+					  self.data.macdO.values.tolist() + \
                       self.data.rsi.values.tolist() + \
                       self.data.cci.values.tolist() + \
-                      self.data.adx.values.tolist()
+                      self.data.adx.values.tolist() + \
+					  self.data.atr.values.tolist() + \
+					  self.data.high_abband.values.tolist() + \
+					  self.data.low_abband.values.tolist()
+					  
         # initialize reward
         self.reward = 0
         self.cost = 0

@@ -18,6 +18,10 @@ import errno
 
 # data
 #TRAINING_DATA_FILE = r"C:\Users\User\Documents\wiki\wiki\dev\python\python-ml\code\Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020\data\ETF_SPY_2009_2020.csv"
+
+training_start = 20090000
+validation_start = 20151000
+
 TRAINING_DATA_FILE = r"C:\Users\User\Documents\wiki\wiki\dev\python\python-ml\code\Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020\data\dow_30_2009_2020.csv"
 
 now = datetime.datetime.now()
