@@ -4,3 +4,15 @@ code/.ipynb_checkpoints/
 *.pyc
 *.csv
 *.png
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_rewards_trade_ensemble_126.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_trade_ensemble_126.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_trade_ensemble_126.png
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_train.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_train.png
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_validation_126.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_validation_126.png
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_validation_189.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_validation_189.png
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/last_state_ensemble_62.csv
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/trained_models/{now}/A2C_30k_dow_189.zip
+code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/trained_models/{now}/DDPG_10k_dow_126.zip
