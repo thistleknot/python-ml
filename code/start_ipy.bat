@@ -1,1 +1,1 @@
-voila --port=8082 --no-browser --enable_nbextensions=True ipywidgets.ipynb
+voila --port=8082 --no-browser --enable_nbextensions=True ipywidgetsFilter.ipynb
