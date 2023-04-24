@@ -1,0 +1,266 @@
+{
+  "nodes": [
+    {
+      "id": "e7sfxn",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "wax5hk",
+      "name": "works",
+      "nodetype": "action"
+    },
+    {
+      "id": "nk1q88",
+      "name": "Google",
+      "nodetype": "object"
+    },
+    {
+      "id": "x97znu",
+      "name": "California",
+      "nodetype": "object"
+    },
+    {
+      "id": "453a1v",
+      "name": "Mary",
+      "nodetype": "subject"
+    },
+    {
+      "id": "2244xm",
+      "name": "lives",
+      "nodetype": "action"
+    },
+    {
+      "id": "tsz4uo",
+      "name": "Paris",
+      "nodetype": "object"
+    },
+    {
+      "id": "f4v2oa",
+      "name": "works",
+      "nodetype": "action"
+    },
+    {
+      "id": "q1s3ib",
+      "name": "Microsoft",
+      "nodetype": "object"
+    },
+    {
+      "id": "gvk2hi",
+      "name": "Eiffel",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "fgbtao",
+      "name": "Tower",
+      "nodetype": "object"
+    },
+    {
+      "id": "yzad4h",
+      "name": "located",
+      "nodetype": "action"
+    },
+    {
+      "id": "dq2l5w",
+      "name": "France",
+      "nodetype": "object"
+    },
+    {
+      "id": "vanmkg",
+      "name": "Paris",
+      "nodetype": "subject"
+    },
+    {
+      "id": "9upj14",
+      "name": "located",
+      "nodetype": "action"
+    },
+    {
+      "id": "j5bw3w",
+      "name": "France",
+      "nodetype": "object"
+    },
+    {
+      "id": "14aq5z",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "i0ob4f",
+      "name": "experienced",
+      "nodetype": "action"
+    },
+    {
+      "id": "8gdrhh",
+      "name": "earthquake",
+      "nodetype": "object"
+    },
+    {
+      "id": "pflxhp",
+      "name": "When",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "3z6gsr",
+      "name": "Jenny",
+      "nodetype": "subject"
+    },
+    {
+      "id": "47a2e8",
+      "name": "depressed",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "v4asqe",
+      "name": "likes",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "uremng",
+      "name": "shopping",
+      "nodetype": "action"
+    },
+    {
+      "id": "703bve",
+      "name": "mall",
+      "nodetype": "object"
+    },
+    {
+      "id": "jf0rpu",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "p387k4",
+      "name": "bought",
+      "nodetype": "action"
+    },
+    {
+      "id": "bw3qww",
+      "name": "new",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "ikkpu4",
+      "name": "car",
+      "nodetype": "object"
+    }
+  ],
+  "edges": [
+    {
+      "from": "e7sfxn",
+      "to": "wax5hk",
+      "label": "connects"
+    },
+    {
+      "from": "e7sfxn",
+      "to": "x97znu",
+      "label": "connects"
+    },
+    {
+      "from": "wax5hk",
+      "to": "nk1q88",
+      "label": "connects"
+    },
+    {
+      "from": "nk1q88",
+      "to": "x97znu",
+      "label": "connects"
+    },
+    {
+      "from": "453a1v",
+      "to": "2244xm",
+      "label": "connects"
+    },
+    {
+      "from": "453a1v",
+      "to": "f4v2oa",
+      "label": "connects"
+    },
+    {
+      "from": "2244xm",
+      "to": "tsz4uo",
+      "label": "connects"
+    },
+    {
+      "from": "f4v2oa",
+      "to": "q1s3ib",
+      "label": "connects"
+    },
+    {
+      "from": "gvk2hi",
+      "to": "fgbtao",
+      "label": "connects"
+    },
+    {
+      "from": "fgbtao",
+      "to": "yzad4h",
+      "label": "connects"
+    },
+    {
+      "from": "yzad4h",
+      "to": "dq2l5w",
+      "label": "connects"
+    },
+    {
+      "from": "vanmkg",
+      "to": "9upj14",
+      "label": "connects"
+    },
+    {
+      "from": "9upj14",
+      "to": "j5bw3w",
+      "label": "connects"
+    },
+    {
+      "from": "14aq5z",
+      "to": "i0ob4f",
+      "label": "connects"
+    },
+    {
+      "from": "i0ob4f",
+      "to": "8gdrhh",
+      "label": "connects"
+    },
+    {
+      "from": "pflxhp",
+      "to": "3z6gsr",
+      "label": "connects"
+    },
+    {
+      "from": "3z6gsr",
+      "to": "47a2e8",
+      "label": "connects"
+    },
+    {
+      "from": "47a2e8",
+      "to": "v4asqe",
+      "label": "connects"
+    },
+    {
+      "from": "v4asqe",
+      "to": "uremng",
+      "label": "connects"
+    },
+    {
+      "from": "uremng",
+      "to": "703bve",
+      "label": "connects"
+    },
+    {
+      "from": "jf0rpu",
+      "to": "p387k4",
+      "label": "connects"
+    },
+    {
+      "from": "p387k4",
+      "to": "bw3qww",
+      "label": "connects"
+    },
+    {
+      "from": "bw3qww",
+      "to": "ikkpu4",
+      "label": "connects"
+    }
+  ]
+}

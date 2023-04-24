@@ -3,6 +3,11 @@ code/.ipynb_checkpoints/
 
 *.pyc
 *.png
+*.csv
+*.zip
+*.db
+*.pkl
+*.faiss
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_rewards_trade_ensemble_126.csv
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_trade_ensemble_126.csv
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/account_value_trade_ensemble_126.png
@@ -15,3 +20,19 @@ code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-I
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/results/last_state_ensemble_62.csv
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/trained_models/{now}/A2C_30k_dow_189.zip
 code/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020/trained_models/{now}/DDPG_10k_dow_126.zip
+code/nlp/testdb.sql
+code/nlp/en_ewt_models/*
+code/nlp/custom_ner_model/*
+code/nlp/ner_trained_model/*
+code/nlp/relationship_extraction_trained_model/*
+code/nlp/stanford-corenlp-latest/*
+code/nlp/trained_ner_model/*
+code/nlp/trained_combined_model/*
+code/nlp/trained_ner_textcat_model/*
+code/nlp/trained_relation_model/*
+code/nlp/.ipynb_checkpoints/*
+*.bin
+*.pt
+code/model_*
+code/corenlp_server-819793788f4943ff.props
+code/nlp/sample.json

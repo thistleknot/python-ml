@@ -1,0 +1,197 @@
+{
+    "nodes": [
+        {
+            "id": "works",
+            "label": "ACTION"
+        },
+        {
+            "id": "John",
+            "label": "PERSON"
+        },
+        {
+            "id": "Google",
+            "label": "ORG"
+        },
+        {
+            "id": "California",
+            "label": "GPE"
+        },
+        {
+            "id": "lives",
+            "label": "ACTION"
+        },
+        {
+            "id": "Mary",
+            "label": "PERSON"
+        },
+        {
+            "id": "Paris",
+            "label": "GPE"
+        },
+        {
+            "id": "Microsoft",
+            "label": "ORG"
+        },
+        {
+            "id": "located",
+            "label": "ACTION"
+        },
+        {
+            "id": "France",
+            "label": "GPE"
+        },
+        {
+            "id": "experienced",
+            "label": "ACTION"
+        },
+        {
+            "id": "earthquake",
+            "label": "THING"
+        },
+        {
+            "id": "enny",
+            "label": "PERSON"
+        },
+        {
+            "id": "likes",
+            "label": "ACTION"
+        },
+        {
+            "id": "go",
+            "label": "ACTION"
+        },
+        {
+            "id": "mall",
+            "label": "THING"
+        },
+        {
+            "id": "bought",
+            "label": "ACTION"
+        },
+        {
+            "id": "car",
+            "label": "THING"
+        },
+        {
+            "id": "new",
+            "label": "MODIFIER"
+        }
+    ],
+    "links": [
+        {
+            "source": "works",
+            "target": "John",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "John",
+            "target": "Google",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "John",
+            "target": "California",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "John",
+            "target": "earthquake",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "John",
+            "target": "car",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Google",
+            "target": "works",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "California",
+            "target": "Google",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "lives",
+            "target": "Mary",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Mary",
+            "target": "Paris",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Mary",
+            "target": "Microsoft",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Paris",
+            "target": "lives",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Paris",
+            "target": "France",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "Microsoft",
+            "target": "works",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "located",
+            "target": "Paris",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "France",
+            "target": "located",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "experienced",
+            "target": "John",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "experienced",
+            "target": "earthquake",
+            "label": "THING"
+        },
+        {
+            "source": "earthquake",
+            "target": "John",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "mall",
+            "target": "go",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "bought",
+            "target": "John",
+            "label": "CONNECTS"
+        },
+        {
+            "source": "bought",
+            "target": "car",
+            "label": "THING"
+        },
+        {
+            "source": "car",
+            "target": "new",
+            "label": "MODIFIER"
+        },
+        {
+            "source": "car",
+            "target": "John",
+            "label": "CONNECTS"
+        }
+    ]
+}

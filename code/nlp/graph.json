@@ -1,0 +1,476 @@
+{
+  "nodes": [
+    {
+      "id": "e7sfxn",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "wax5hk",
+      "name": "works",
+      "nodetype": "action"
+    },
+    {
+      "id": "iwqjh7",
+      "name": "at",
+      "nodetype": "na"
+    },
+    {
+      "id": "nk1q88",
+      "name": "Google",
+      "nodetype": "object"
+    },
+    {
+      "id": "p5v349",
+      "name": "in",
+      "nodetype": "na"
+    },
+    {
+      "id": "x97znu",
+      "name": "California",
+      "nodetype": "object"
+    },
+    {
+      "id": "453a1v",
+      "name": "Mary",
+      "nodetype": "subject"
+    },
+    {
+      "id": "2244xm",
+      "name": "lives",
+      "nodetype": "action"
+    },
+    {
+      "id": "0btp9u",
+      "name": "in",
+      "nodetype": "na"
+    },
+    {
+      "id": "tsz4uo",
+      "name": "Paris",
+      "nodetype": "object"
+    },
+    {
+      "id": "5v8s2e",
+      "name": "and",
+      "nodetype": "na"
+    },
+    {
+      "id": "f4v2oa",
+      "name": "works",
+      "nodetype": "action"
+    },
+    {
+      "id": "76jywb",
+      "name": "for",
+      "nodetype": "na"
+    },
+    {
+      "id": "q1s3ib",
+      "name": "Microsoft",
+      "nodetype": "object"
+    },
+    {
+      "id": "hjhypg",
+      "name": "The",
+      "nodetype": "na"
+    },
+    {
+      "id": "gvk2hi",
+      "name": "Eiffel",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "fgbtao",
+      "name": "Tower",
+      "nodetype": "object"
+    },
+    {
+      "id": "grhh7o",
+      "name": "is",
+      "nodetype": "na"
+    },
+    {
+      "id": "yzad4h",
+      "name": "located",
+      "nodetype": "action"
+    },
+    {
+      "id": "fmuka8",
+      "name": "in",
+      "nodetype": "na"
+    },
+    {
+      "id": "dq2l5w",
+      "name": "France",
+      "nodetype": "object"
+    },
+    {
+      "id": "vanmkg",
+      "name": "Paris",
+      "nodetype": "subject"
+    },
+    {
+      "id": "x2v0fg",
+      "name": "is",
+      "nodetype": "na"
+    },
+    {
+      "id": "9upj14",
+      "name": "located",
+      "nodetype": "action"
+    },
+    {
+      "id": "fgp2li",
+      "name": "in",
+      "nodetype": "na"
+    },
+    {
+      "id": "j5bw3w",
+      "name": "France",
+      "nodetype": "object"
+    },
+    {
+      "id": "14aq5z",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "i0ob4f",
+      "name": "experienced",
+      "nodetype": "action"
+    },
+    {
+      "id": "gpxoda",
+      "name": "an",
+      "nodetype": "na"
+    },
+    {
+      "id": "8gdrhh",
+      "name": "earthquake",
+      "nodetype": "object"
+    },
+    {
+      "id": "pflxhp",
+      "name": "When",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "3z6gsr",
+      "name": "Jenny",
+      "nodetype": "subject"
+    },
+    {
+      "id": "zm2u4g",
+      "name": "is",
+      "nodetype": "na"
+    },
+    {
+      "id": "47a2e8",
+      "name": "depressed",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "8fajvj",
+      "name": "she",
+      "nodetype": "na"
+    },
+    {
+      "id": "v4asqe",
+      "name": "likes",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "t6bzld",
+      "name": "to",
+      "nodetype": "na"
+    },
+    {
+      "id": "ioouo9",
+      "name": "go",
+      "nodetype": "na"
+    },
+    {
+      "id": "uremng",
+      "name": "shopping",
+      "nodetype": "action"
+    },
+    {
+      "id": "azhu5l",
+      "name": "at",
+      "nodetype": "na"
+    },
+    {
+      "id": "klptzl",
+      "name": "the",
+      "nodetype": "na"
+    },
+    {
+      "id": "703bve",
+      "name": "mall",
+      "nodetype": "object"
+    },
+    {
+      "id": "jf0rpu",
+      "name": "John",
+      "nodetype": "subject"
+    },
+    {
+      "id": "p387k4",
+      "name": "bought",
+      "nodetype": "action"
+    },
+    {
+      "id": "ytnqzh",
+      "name": "a",
+      "nodetype": "na"
+    },
+    {
+      "id": "bw3qww",
+      "name": "new",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "ikkpu4",
+      "name": "car",
+      "nodetype": "object"
+    },
+    {
+      "id": "xuh8d9",
+      "name": "This",
+      "nodetype": "na"
+    },
+    {
+      "id": "9eo5ld",
+      "name": "strainer",
+      "nodetype": "subject"
+    },
+    {
+      "id": "w2lhfc",
+      "name": "makes",
+      "nodetype": "action"
+    },
+    {
+      "id": "gkk2cm",
+      "name": "a",
+      "nodetype": "na"
+    },
+    {
+      "id": "rg3d0w",
+      "name": "great",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "i97k2i",
+      "name": "hat",
+      "nodetype": "object"
+    },
+    {
+      "id": "s97pkt",
+      "name": ", ",
+      "nodetype": "na"
+    },
+    {
+      "id": "b71wyw",
+      "name": "I",
+      "nodetype": "subject"
+    },
+    {
+      "id": "wjid2k",
+      "name": "'",
+      "nodetype": "na"
+    },
+    {
+      "id": "2ofzla",
+      "name": "ll",
+      "nodetype": "na"
+    },
+    {
+      "id": "4u7hzp",
+      "name": "wear",
+      "nodetype": "action"
+    },
+    {
+      "id": "4jbv39",
+      "name": "it",
+      "nodetype": "na"
+    },
+    {
+      "id": "ujdufm",
+      "name": "while",
+      "nodetype": "modifier"
+    },
+    {
+      "id": "f3xuue",
+      "name": "I",
+      "nodetype": "na"
+    },
+    {
+      "id": "7e3r7x",
+      "name": "serve",
+      "nodetype": "action"
+    },
+    {
+      "id": "ubbmle",
+      "name": "spaghetti",
+      "nodetype": "object"
+    },
+    {
+      "id": "b38nep",
+      "name": "!",
+      "nodetype": "na"
+    }
+  ],
+  "edges": [
+    {
+      "from": "e7sfxn",
+      "to": "wax5hk",
+      "label": "connects"
+    },
+    {
+      "from": "e7sfxn",
+      "to": "x97znu",
+      "label": "connects"
+    },
+    {
+      "from": "wax5hk",
+      "to": "nk1q88",
+      "label": "connects"
+    },
+    {
+      "from": "nk1q88",
+      "to": "x97znu",
+      "label": "connects"
+    },
+    {
+      "from": "453a1v",
+      "to": "2244xm",
+      "label": "connects"
+    },
+    {
+      "from": "453a1v",
+      "to": "f4v2oa",
+      "label": "connects"
+    },
+    {
+      "from": "2244xm",
+      "to": "tsz4uo",
+      "label": "connects"
+    },
+    {
+      "from": "f4v2oa",
+      "to": "q1s3ib",
+      "label": "connects"
+    },
+    {
+      "from": "gvk2hi",
+      "to": "fgbtao",
+      "label": "connects"
+    },
+    {
+      "from": "fgbtao",
+      "to": "yzad4h",
+      "label": "connects"
+    },
+    {
+      "from": "yzad4h",
+      "to": "dq2l5w",
+      "label": "connects"
+    },
+    {
+      "from": "vanmkg",
+      "to": "9upj14",
+      "label": "connects"
+    },
+    {
+      "from": "9upj14",
+      "to": "j5bw3w",
+      "label": "connects"
+    },
+    {
+      "from": "14aq5z",
+      "to": "i0ob4f",
+      "label": "connects"
+    },
+    {
+      "from": "i0ob4f",
+      "to": "8gdrhh",
+      "label": "connects"
+    },
+    {
+      "from": "pflxhp",
+      "to": "3z6gsr",
+      "label": "connects"
+    },
+    {
+      "from": "3z6gsr",
+      "to": "47a2e8",
+      "label": "connects"
+    },
+    {
+      "from": "47a2e8",
+      "to": "v4asqe",
+      "label": "connects"
+    },
+    {
+      "from": "v4asqe",
+      "to": "uremng",
+      "label": "connects"
+    },
+    {
+      "from": "uremng",
+      "to": "703bve",
+      "label": "connects"
+    },
+    {
+      "from": "jf0rpu",
+      "to": "p387k4",
+      "label": "connects"
+    },
+    {
+      "from": "p387k4",
+      "to": "bw3qww",
+      "label": "connects"
+    },
+    {
+      "from": "bw3qww",
+      "to": "ikkpu4",
+      "label": "connects"
+    },
+    {
+      "from": "9eo5ld",
+      "to": "w2lhfc",
+      "label": "connects"
+    },
+    {
+      "from": "w2lhfc",
+      "to": "rg3d0w",
+      "label": "connects"
+    },
+    {
+      "from": "rg3d0w",
+      "to": "i97k2i",
+      "label": "connects"
+    },
+    {
+      "from": "b71wyw",
+      "to": "4u7hzp",
+      "label": "connects"
+    },
+    {
+      "from": "4u7hzp",
+      "to": "ujdufm",
+      "label": "connects"
+    },
+    {
+      "from": "ujdufm",
+      "to": "7e3r7x",
+      "label": "connects"
+    },
+    {
+      "from": "7e3r7x",
+      "to": "ubbmle",
+      "label": "connects"
+    }
+  ]
+}
